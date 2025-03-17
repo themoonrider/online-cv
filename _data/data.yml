@@ -3,284 +3,237 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
-  avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  name: Phuong Tran
+  tagline: Data Engineer
+  # avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
-  citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
-  telegram: # add your nickname without '@' sign
-  gitlab:
-  bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
-  codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  email: nphuongtran94@gmail.com
+  # phone: 012 345 6789
+  timezone: Asia/Kuala Lumpur # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  # citizenship:
+  website: https://themoonrider.github.io/online-cv/ # Include the full website URL, including "http://" or "https://".
+  linkedin: phuongtran194
+  # xing: alandoe
+  github: themoonrider
+  # telegram: # add your nickname without '@' sign
+  # gitlab:
+  # bitbucket:
+  # bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
+  # twitter: '@jekyllrb'
+  # stack-overflow: # Number/Username, e.g. 123456/alandoe
+  # codewars:
+  # goodreads: # Number-Username, e.g. 123456-alandoe
+  # mastodon: # Please include your full Mastodon link here.
+  # hackerrank: # Please provide your HackerRank username.
+  # leetcode: # Please provide your LeetCode username.
+  # pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
 
-  languages:
-    title: Languages
-    info:
-    - idiom: English
-      level: Native
+  # languages:
+  #   title: Skills
+  #   info:
+  #   - idiom: English
+  #     level: Native
 
-    - idiom: French
-      level: Professional
+  #   - idiom: French
+  #     level: Professional
 
-    - idiom: Spanish
-      level: Professional
+  #   - idiom: Spanish
+  #     level: Professional
 
   interests:
-    title: Interests
+    title: Skills
     info:
-    - item: Climbing
-      link:
-
-
-    - item: Snowboarding
-      link:
-
-
-    - item: Cooking
-      link:
+    - item: Python, SQL
+    - item: Google Cloud, AWS
+    - item: Kafka, CDC, Airflow
+    - item: dbt, Apache Spark, Apache Stream
+    - item: Lookerstudio, Streamlit
 
 
 career-profile:
-  title: Career Profile
+  title: About Me
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    GCP Certified Professional Data Engineer with expertise in designing and implementing scalable, cloud-native solutions. 
+    A highly efficient full-stack data engineer with end-to-end experience in batch and streaming data processing. 
+    Passionate about building optimized data models for large-scale workloads, ensuring performance and reliability. 
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+  # - degree: MSc in Computer Science
+  #   university: University of London
+  #   time: 2011 - 2012
+  #   details: |
+  #     Describe your study here lorem ipsum dolor sit amet, consectetuer
+  #     adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
+  #     sociis natoque penatibus et magnis dis parturient montes, nascetur
+  #     ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
+  #     pretium quis, sem.
+  #       - Bullet point
+  #       - Bullet point
+  - degree: BSc in Biomedical Science
+    university: Monash University
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Senior Data Engineer
+    time: 2024 - Present
+    company: Time Dotcom, Malaysia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      **_Tech Stack:_** Kafka, Debezium, Airflow, dbt, Pub/Sub, Data Modelling, Bigquery.
+      - Led the proof of concept (POC) for CDC streaming ingestion from legacy OLTP MySQL and Oracle databases.
+      - Designed and implemented in-house declarative pipelines, reducing development time by 70%.
+      - Own and maintain critical ELT pipelines supporting multiple business domains.
+      - Onboarded the team to dbt, driving adoption of best practices.
+      - Spearheaded the migration of legacy stored procedures to dbt models for a critical finance process.
+  - role: Data Engineer
+    time: 2022 - 2024
+    company: Mindvalley, Malaysia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      **_Tech Stack:_** Airflow, dbt, Pub/Sub, Data Modelling, Bigquery, Kubernetes.
+      - Designed and implemented a webhook infrastructure to enable real-time data ingestion from third-party APIs.
+      - Developed and optimized semantic data layers to empower data analysts and business stakeholders with structured insights.
+      - Built a near real-time dashboard solution leveraging event-driven data for timely decision-making.
+      - Automated manual workflows for non-technical teams, boosting productivity by 50%.
+  - role: Data Analytics Engineer
+    time: 2021 - 2022
+    company: Persuasion Technologies, Malaysia
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      **_Tech Stack:_** Cloud Run, Bigquery, dbt, Lookerstudio, Scoping, Collaboration.
+      - Owned production‑level ETL/ELT pipelines from various data sources including on‑premise servers and API calls.
+      - Led the improvement of data observability for existing and new pipelines with dbt and re‑data.
+      - Worked with clients to understand business needs and translate those needs to actionable reports in LookerStudio.
+      - Led the migration of legacy SQL data modellings to dbt.
+      - Owned ML model‑serving application built on AppEngine and CloudRun to predict disease risk from 70k+ medical records.
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
+  - name: Professional Cloud Database Engineer
+    start: 2023
+    organization: Google
+    # credentialid: 111-222
+    credentialurl: https://google.accredible.com/1194d938-f3f0-4aa5-a8df-aea6cc7c9ec0
     credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    # details: |
+    #   Details about cert. Lorem ipsum dolor sit amet, consectetur
+    #   adipiscing elit.
+    #   Nullam eget orci purus. Nullam ultrices neque nibh.
+    #   Aenean fermentum, felis vulputate suscipit accumsan,
+    #   sem enim bibendum augue, sed convallis arcu lacus at dui.
+    #   Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
+    #   Praesent felis nibh, eleifend id eleifend id, dictum id enim.
+    #   Praesent venenatis erat non augue suscipit consectetur.
 
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    #   Second paragraph. Sed eleifend enim ante, vitae efficitur purus
+    #   fringilla vel. Ut euismod, sem sed vulputate venenatis,
+    #   justo diam viverra velit, sed rhoncus leo leo eu justo.
+    #   Suspendisse placerat risus ante, sed porta nisi blandit at.
+  - name: Professional Data Engineer
+    start: 2022
+    organization: Google
+    credentialurl: https://google.accredible.com/d664fb0e-d15a-417a-a2a6-38cfda68f9e7
+    credentialname: Google
 
 projects:
   title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+  # intro: >
+    # You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+  - title: Ganax Social Media Performance Tracking 
+    tagline: "Scalable Web Scraping Pipeline for Instagram & Facebook – Batch Processing Made Efficient."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+  - title: "Fashion Catalog AI: LLM-Powered Description Generation"
+    tagline: "AI-Powered Web App for Generating Product Descriptions from Images and Features with GPT-4 Vision."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+  - title: Real-Time Data Streaming and Analytics Dashboard
+    tagline: "Real-Time Analytics Fueled by Event-Driven Data."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#   - title: A syntax directed compiler for Algol 60
+#     link: "#"
+#     authors: Edgar T. Irons
+#     conference: "Comm. ACM 4 (1961), 51–55"
 
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+#       He is a great employee!
 
-      He is a great employee!
+# skills:
+#   title: Skills &amp; Proficiency
 
-skills:
-  title: Skills &amp; Proficiency
+#   toolset:
+#   - name: Python & Django
+#     level: 98%
 
-  toolset:
-  - name: Python & Django
-    level: 98%
+#   - name: Javascript & jQuery
+#     level: 98%
 
-  - name: Javascript & jQuery
-    level: 98%
+#   - name: Angular
+#     level: 98%
 
-  - name: Angular
-    level: 98%
+#   - name: HTML5 & CSS
+#     level: 95%
 
-  - name: HTML5 & CSS
-    level: 95%
+#   - name: Ruby on Rails
+#     level: 85%
 
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+#   - name: Sketch & Photoshop
+#     level: 60%
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
