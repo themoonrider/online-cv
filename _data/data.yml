@@ -52,7 +52,7 @@ sidebar:
     - item: Python, SQL
     - item: Google Cloud, AWS
     - item: Kafka, CDC, Airflow
-    - item: dbt, Apache Spark, Apache Stream
+    - item: dbt, Apache Stream
     - item: Lookerstudio, Streamlit
 
 
@@ -88,7 +88,7 @@ experiences:
     details: |
       **_Tech Stack:_** Kafka, Debezium, Airflow, dbt, Pub/Sub, Data Modelling, Bigquery.
       - Led the proof of concept (POC) for CDC streaming ingestion from legacy OLTP MySQL and Oracle databases.
-      - Designed and implemented in-house declarative pipelines, reducing development time by 70%.
+      - Designed and implemented in-house high-level declarative pipelines, reducing development time by 70%.
       - Own and maintain critical ELT pipelines supporting multiple business domains.
       - Onboarded the team to dbt, driving adoption of best practices.
       - Spearheaded the migration of legacy stored procedures to dbt models for a critical finance process.
