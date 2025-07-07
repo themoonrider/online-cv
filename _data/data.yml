@@ -51,7 +51,7 @@ sidebar:
     info:
     - item: Python, SQL
     - item: Google Cloud, AWS
-    - item: Kafka, CDC, Airflow
+    - item: Kafka, CDC, Airflow, Flink
     - item: dbt, Apache Stream
     - item: Lookerstudio, Streamlit
 
@@ -91,7 +91,7 @@ experiences:
       - Designed and implemented in-house high-level declarative pipelines, reducing development time by 70%.
       - Own and maintain critical ELT pipelines supporting multiple business domains.
       - Onboarded the team to dbt, driving adoption of best practices.
-      - Spearheaded the migration of legacy stored procedures to dbt models for a critical finance process.
+      - Spearheaded the migration of 4000+ lines of legacy stored procedures to dbt models for a critical finance process.
   - role: Data Engineer
     time: 2022 - 2024
     company: Mindvalley, Malaysia
@@ -100,7 +100,7 @@ experiences:
       - Designed and implemented a webhook infrastructure to enable real-time data ingestion from third-party APIs.
       - Developed and optimized semantic data layers to empower data analysts and business stakeholders with structured insights.
       - Built a near real-time dashboard solution leveraging event-driven data for timely decision-making.
-      - Automated manual workflows for non-technical teams, boosting productivity by 50%.
+      - Automated manual workflows for performance marketing teams with Supermetrics data, boosting productivity by 70%.
   - role: Data Analytics Engineer
     time: 2021 - 2022
     company: Persuasion Technologies, Malaysia
