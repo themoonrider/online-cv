@@ -21,6 +21,7 @@ sidebar:
   linkedin: phuongtran194
   # xing: alandoe
   github: themoonrider
+  youtube: https://www.youtube.com/watch?v=97okesjynqo
   # telegram: # add your nickname without '@' sign
   # gitlab:
   # bitbucket:
@@ -80,38 +81,56 @@ education:
     university: Monash University
 
 experiences:
-  title: Experiences
-  info:
-  - role: Senior Data Engineer
-    time: 2024 - Present
-    company: Time Dotcom, Malaysia
-    details: |
-      **_Tech Stack:_** Kafka, Debezium, Airflow, dbt, Pub/Sub, Data Modelling, Bigquery.
-      - Led the proof of concept (POC) for CDC streaming ingestion from legacy OLTP MySQL and Oracle databases.
-      - Designed and implemented in-house high-level declarative pipelines, reducing development time by 70%.
-      - Own and maintain critical ELT pipelines supporting multiple business domains.
-      - Onboarded the team to dbt, driving adoption of best practices.
-      - Spearheaded the migration of 4000+ lines of legacy stored procedures to dbt models for a critical finance process.
-  - role: Data Engineer
-    time: 2022 - 2024
-    company: Mindvalley, Malaysia
-    details: |
-      **_Tech Stack:_** Airflow, dbt, Pub/Sub, Data Modelling, Bigquery, Kubernetes.
-      - Designed and implemented a webhook infrastructure to enable real-time data ingestion from third-party APIs.
-      - Developed and optimized semantic data layers to empower data analysts and business stakeholders with structured insights.
-      - Built a near real-time dashboard solution leveraging event-driven data for timely decision-making.
-      - Automated manual workflows for performance marketing teams with Supermetrics data, boosting productivity by 70%.
-  - role: Data Analytics Engineer
-    time: 2021 - 2022
-    company: Persuasion Technologies, Malaysia
-    details: |
-      **_Tech Stack:_** Cloud Run, Bigquery, dbt, Lookerstudio, Scoping, Collaboration.
-      - Owned production‑level ETL/ELT pipelines from various data sources including on‑premise servers and API calls.
-      - Led the improvement of data observability for existing and new pipelines with dbt and re‑data.
-      - Worked with clients to understand business needs and translate those needs to actionable reports in LookerStudio.
-      - Led the migration of legacy SQL data modellings to dbt.
-      - Owned ML model‑serving application built on AppEngine and CloudRun to predict disease risk from 70k+ medical records.
-
+  - title: Data Engineering Experiences
+    info:
+    - role: Senior Data Engineer
+      time: 2024 - Present
+      company: Time Dotcom, Malaysia
+      details: |
+        **_Tech Stack:_** Kafka, Debezium, Airflow, dbt, Pub/Sub, Data Modelling, Bigquery.
+        - Led the proof of concept (POC) for CDC streaming ingestion from legacy OLTP MySQL and Oracle databases.
+        - Designed and implemented in-house high-level declarative pipelines, reducing development time by 70%.
+        - Own and maintain critical ELT pipelines supporting multiple business domains.
+        - Onboarded the team to dbt, driving adoption of best practices.
+        - Spearheaded the migration of 4000+ lines of legacy stored procedures to dbt models for a critical finance process.
+    - role: Data Engineer
+      time: 2022 - 2024
+      company: Mindvalley, Malaysia
+      details: |
+        **_Tech Stack:_** Airflow, dbt, Pub/Sub, Data Modelling, Bigquery, Kubernetes.
+        - Designed and implemented a webhook infrastructure to enable real-time data ingestion from third-party APIs.
+        - Developed and optimized semantic data layers to empower data analysts and business stakeholders with structured insights.
+        - Built a near real-time dashboard solution leveraging event-driven data for timely decision-making.
+        - Automated manual workflows for performance marketing teams with Supermetrics data, boosting productivity by 70%.
+    - role: Data Analytics Engineer
+      time: 2021 - 2022
+      company: Persuasion Technologies, Malaysia
+      details: |
+        **_Tech Stack:_** Cloud Run, Bigquery, dbt, Lookerstudio, Scoping, Collaboration.
+        - Owned production‑level ETL/ELT pipelines from various data sources including on‑premise servers and API calls.
+        - Led the improvement of data observability for existing and new pipelines with dbt and re‑data.
+        - Worked with clients to understand business needs and translate those needs to actionable reports in LookerStudio.
+        - Led the migration of legacy SQL data modellings to dbt.
+        - Owned ML model‑serving application built on AppEngine and CloudRun to predict disease risk from 70k+ medical records.
+  
+  - title: Teaching and Research Experiences
+    info:
+    - role: Data Analyst, Quantitative Genomics
+      time: 2018 - 2021
+      company: Deakin University, Australia
+      details: |
+        **_Tech Stack:_** Python, R, Multivariate Statistical analysis.
+        - The research focuses on analysing quantitative genomic sequences data to identify and predict corrosion-specific gene expressions on mild steel.
+          The project is part of a multidisciplinary effort including chemists and engineers trying to solve one of the biggest issues in corrosion of industrial infrastructures such as oil and gas pipelines.
+        - Highlight: Winner of 3 Minute Thesis - https://www.youtube.com/watch?v=97okesjynqo
+    - role: Instructor, Practical Classes
+      time: 2018-2021 
+      company: Deakin University, Australia 
+      details: |
+        - Face-to-face and online teaching for 24-80 First and Second Year students in Molecular Biology units. 
+        - Handled grading assessments and curriculum design. 
+        - 99.6% approval rating in student evaluation. 
+        - Proposed and implemented improvements in conducting classes to comply with government’s Covid-19 guidelines; successfully reduced 10-15% average class duration while preserving the quality of students’ experience.
 certifications:
   title: Certifications
   list:
